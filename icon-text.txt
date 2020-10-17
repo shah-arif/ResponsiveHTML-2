@@ -1,0 +1,5 @@
+<i class="fab fa-twitter"></i>
+<i class="fab fa-pinterest"></i>
+<i class="fab fa-linkedin-in"></i>
+<i class="fas fa-rss"></i>
+<i class="fab fa-google-plus-g"></i>

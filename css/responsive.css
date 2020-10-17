@@ -1,0 +1,205 @@
+/* Responsive for Galaxy S5 */
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    /* default css started */
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 350px;
+        margin: auto !important;
+    }
+
+    .pt {
+        padding-top: 30px;
+    }
+    
+    .pb {
+        padding-bottom: 30px;
+    }
+    /* default css ended */
+    /* header started */
+    .header {
+        padding-bottom: 70px;
+    }
+
+    .social-icon {
+        padding-left: 52px;
+    }
+
+    .search-bar {
+        margin-top: 20px;
+        padding-left: 27px;
+        float: left;
+    }
+    /* header ended */
+    /* banner sttarted */
+    .banner {
+        background-position: 0px;
+        height: 420px;
+    }
+    /* banner ended */
+    /* menu started */
+    .menu-bar ul li {
+        display: block;
+    }
+    .menu-bar ul li a {
+        padding: 1px 8px;
+    }
+
+    #check:checked ~ .menu-bar {
+        left: 0%;
+        display: block;
+    }
+    /* menu ended */
+    /* about section started */
+    .ab_col {
+        width: 100%;
+    }
+    .ab_col-1 h3 {
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 27pt;
+        color: #333;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+    .ab_p1, .ab_p2 {
+        margin-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12pt;
+        text-align: center;
+    }
+    .ab_btn {
+        display: inline-block;
+        background: #6A3144;
+        padding: 6px 14px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        position: relative;
+        transition: all ease .3s;
+        margin-left: 124px;
+        font-size: 16px;
+    }
+
+    .ab_btn span {
+        position: absolute;
+        font-size: 24px;
+        top: -2px;
+        transition: all ease .4s;
+    }
+
+    .ab_btn:hover > span {
+        opacity: 1;
+        left: 105px;
+    }
+    /* about section ended */
+    /* service part started */
+
+    .service_head h2 {
+        font-size: 30pt;
+    }
+
+    .service_head p {
+        font-size: 12pt;
+    }
+    .service_col {
+        width: 100%;
+    }
+    .service_main {
+        padding: 0px;
+        transition: all linear .4s;
+    }
+    .service_main h1 {
+        color: #523827;
+        font-size: 70pt;
+        height: 51px;
+        width: 66px;
+        opacity: 0.2;
+        font-family: 'Oswald', sans-serif;
+        margin-left: 117px;
+    }
+    .service_main h2 {
+        color: #523827;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19pt;
+        font-weight: 600;
+        padding-bottom: 11px;
+        padding-left: 0px;
+        padding-top: 22px;
+    }
+    .service_main p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11pt;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    /* service part ended */
+    /* contact started */
+    .contact {
+        background: url(../img/contact_bg.png);
+        margin-top: -50px;
+        height: 500px;
+    }
+
+    .contact_head {
+        font-family: 'Oswald', sans-serif;
+        font-size: 28pt;
+        color: #fff;
+        text-align: center;
+        padding: 0;
+    }
+    .u_name, .u_ph {
+        width: 282px;
+        height: 41px;
+        border-radius: 5px;
+        padding: 0px 17px;
+        font-size: 10pt;
+        font-family: 'Open Sans', sans-serif;
+        border: 0px;
+    }
+    .msg_box {
+        height: 63px;
+        width: 282px;
+        border-radius: 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10pt;
+        border: 0px;
+        padding: 11px 16px;
+    }
+    .snd_btn {
+        background: #97455F;
+        border: 0;
+        font-size: 9pt;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 23px;
+        font-weight: 600;
+        padding: 9px 21px;
+        cursor: pointer;
+        margin-top: 12px;
+        transition: all linear .3s;
+    }
+    /* contact ended */
+    /* footer started */
+        .footer {
+            padding: 0px;
+        }
+        .ft_logo {
+            height: 100px;
+            cursor: pointer;
+        }
+        .foot_logo {
+            padding-top: 12px;
+        }
+        .ft_txt {
+            color: #6a3144;
+            font-size: 9pt;
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            margin-top: 7px;
+            padding-bottom: 15px;
+        }
+    /* footer ended */
+}

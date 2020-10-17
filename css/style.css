@@ -1,0 +1,433 @@
+/*Project : 02-PSD to HTML*/
+
+
+/*Author : Shah Arif Abdullah*/
+
+
+/*Default CSS started*/
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1186px;
+    margin: auto !important;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.pt {
+    padding-top: 68px;
+}
+
+.pb {
+    padding-bottom: 68px;
+}
+
+
+/*Default CSS end*/
+
+
+/*Header Started*/
+
+.header {
+    background: #A88C95;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.social-icon {
+    display: inline-block;
+}
+
+.search-bar {
+    float: right;
+    margin-top: -10px;
+}
+
+.sc {
+    background: #D2D2D2;
+    color: #6A3144;
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: 6px;
+    font-size: 17px;
+    transition: all linear .3s;
+}
+
+.sc:hover {
+    background: #EE802F;
+    color: #fff;
+}
+
+.sc.icon-tw {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sc.icon-li {
+    padding-bottom: 9px;
+    padding-left: 11px;
+    padding-right: 12px;
+    padding-top: 10px;
+}
+
+.sc.icon-pi {
+    padding-top: 10px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 10px;
+}
+
+.sc.icon-go {
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.sc.icon-rs {
+    padding-right: 10px;
+    padding-left: 12px;
+}
+
+.search-box {
+    padding: 11px 57px 9px 10px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    border: 0px;
+    margin-right: -4px;
+}
+
+.srch_btn {
+    background: #97455F;
+    color: #fff;
+    padding: 11px 6px 9px 3px;
+    border: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.srch_btn:hover {
+    background: #97455F;
+    opacity: .6;
+}
+
+
+/*Header end*/
+
+
+/*Logo started*/
+
+.logo {
+    text-align: center;
+    background: whitesmoke;
+    padding-bottom: 23px;
+    padding-top: 23px;
+}
+
+
+/*Logo end*/
+
+
+/*Menu bar started*/
+
+.menu-bar {
+    text-align: center;
+    background: #97455F;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+}
+
+.menu-bar ul li a {
+    padding: 18px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .3s;
+}
+
+.menu-bar ul li a:hover {
+    background-color: #6A3144;
+}
+
+
+/*Menu bar started*/
+
+
+/*banner started*/
+
+.banner {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 646px;
+}
+
+
+/*banner ended*/
+
+
+/*about section started*/
+
+.ab_col {
+    width: 50%;
+}
+
+.ab_col-1 {
+    float: left;
+}
+
+.ab_col-1 h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ab_col-1 h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 30pt;
+    color: #333;
+    margin-bottom: 32px;
+}
+
+.ab_p1,
+.ab_p2 {
+    margin-bottom: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+
+.ab_btn {
+    display: inline-block;
+    background: #6A3144;
+    padding: 10px 22px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    transition: all ease .3s;
+}
+
+.ab_btn:hover {
+    background: #333333;
+}
+
+.ab_btn span {
+    position: absolute;
+    font-size: 24px;
+    top: 4px;
+    left: 60px;
+    opacity: 0;
+    transition: all ease .4s;
+}
+
+.ab_btn:hover>span {
+    opacity: 1;
+    left: 123px;
+}
+
+.ab_col-2 {
+    float: right;
+}
+
+.ab_col-2 img {
+    width: 100%;
+}
+
+
+/*about section ended*/
+
+
+/*Service section started*/
+
+.service {
+    background: #F5F5F5;
+}
+
+.service_head {
+    text-align: center;
+}
+
+.service_head h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #6A3144;
+    font-size: 48pt;
+}
+
+.service_head p {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 18pt;
+}
+
+.service_col {
+    width: 33.33%;
+}
+
+.sc-1 {
+    float: left;
+}
+
+.sc-2 {
+    float: left;
+}
+
+.sc-3 {
+    float: left;
+}
+
+.service_main {
+    padding: 20px;
+    transition: all linear .4s;
+}
+
+.service_main h1 {
+    color: #523827;
+    font-size: 100pt;
+    height: 83px;
+    width: 88px;
+    opacity: 0.2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.service_main h2 {
+    color: #523827;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23pt;
+    font-weight: 600;
+    padding-bottom: 37px;
+    padding-left: 93px;
+    padding-top: 6px;
+}
+
+.service_main p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    margin-left: 43px;
+    padding-left: 14px;
+}
+
+.service_main:hover {
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 70px -26px;
+}
+
+
+/*Service section ended*/
+
+
+/*Contact section started*/
+
+.contact {
+    background: url(../img/contact_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 636px;
+}
+
+.contact_head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36pt;
+    color: #fff;
+    text-align: center;
+    padding: 65px;
+}
+
+.contact_form {
+    text-align: center;
+}
+
+.u_name,
+.u_ph {
+    width: 443px;
+    height: 47px;
+    border-radius: 5px;
+    padding: 0px 17px;
+    font-size: 16pt;
+    font-family: 'Open Sans', sans-serif;
+    border: 0px;
+}
+
+.msg_box {
+    height: 115px;
+    width: 945px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    border: 0px;
+    padding: 13px 16px;
+}
+
+#nm,
+#_msg {
+    margin: 10px;
+}
+
+.snd_btn {
+    background: #97455F;
+    border: 0;
+    font-size: 21pt;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 23px;
+    font-weight: 600;
+    padding: 14px 37px;
+    cursor: pointer;
+    margin-top: 19px;
+    transition: all linear .3s;
+}
+
+.snd_btn:hover {
+    background: rgb(219, 205, 205);
+    color: rgb(0, 0, 0);
+}
+
+
+/*Contact section ended*/
+
+
+/*footer section started*/
+
+.footer {
+    text-align: center;
+    background: #FFFFFF;
+    padding: 55px;
+}
+
+.ft_txt {
+    color: #6a3144;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 12px;
+}
+
+
+/*footer section ended*/
